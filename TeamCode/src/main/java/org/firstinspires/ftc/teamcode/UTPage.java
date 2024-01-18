@@ -12,4 +12,8 @@ public class UTPage {
     public UTPage(ArrayList<UTLogItem> logItems) {
         this.logItems = logItems;
     }
+
+    public ArrayList<UTLogItem> getLogItems() {
+        return logItems;
+    }
 }
